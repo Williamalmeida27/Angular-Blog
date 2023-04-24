@@ -1,0 +1,27 @@
+.container_big-card{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    color: #fff;
+    border: aqua;
+    border-style: double;
+}
+
+.container_big-card-img > img{
+    width: 100%;
+    height: 200px;
+}
+
+.container_big-card-content{
+    padding: .5rem;
+}
+
+.container_big-card-content-title{
+    padding-top: 10px;
+}
+
+.container_big-card-content-description{
+    padding-top: 10px;
+    color: rgb(145, 143, 143);
+}

@@ -1,0 +1,23 @@
+.container_small-card-content{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center
+}
+
+.small-card-img > img{
+    width: 140px;
+    height: 85px;
+}
+
+.small-card-title{
+    padding-left: .5rem;
+}
+
+.small-card-separator{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
