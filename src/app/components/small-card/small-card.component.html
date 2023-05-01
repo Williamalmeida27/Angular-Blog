@@ -1,17 +1,21 @@
-<div class="container_small-card">
-<div class="container_small-card-content">
-    <div class="small-card-img">
-        <img src="https://opensource.google/images/projects/os-projects-angular_thumbnail.png" alt="" srcset="">
+<div class="container__small-card">
+
+    <div class="container__small-card-content">
+      <div class="small-card__photo">
+        <img
+          src="{{ photoCover }}"
+          alt=""
+          srcset=""
+        >
+      </div>
+  
+      <div class="small-card__title">
+        <h1><a [routerLink]="['content', Id]" >{{ cardTitle }}</a></h1>
+      </div>
     </div>
-
-    <div class="small-card-title">
-        <h3> SAIU A NOVA VERSÃO DO ANGULAR</h3>
+  
+    <div class="container__small-card__separator">
+      <hr>
     </div>
-
-</div>
-
-<div class="small-card-separator">
-    <hr>
-</div>
-</div>
-
+  
+  </div>

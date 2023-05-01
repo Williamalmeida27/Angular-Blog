@@ -1,21 +1,17 @@
-.container_menu-bar{
+.menu_posts_sub-menu {
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
-.menu-bar-list > ul{
+.menu_posts-list > ul{
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
 }
 
-.menu-bar-list > ul > li{
+.menu_posts-list > ul > li{
     margin-right: 20px;
     list-style: none;
-}
-
-.menu-bar-list > ul > li > a{
-    text-decoration: none;
 }
